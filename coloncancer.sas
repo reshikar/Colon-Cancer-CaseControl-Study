@@ -7,9 +7,7 @@
   - Descriptives and t-tests by case status
   - Logistic regression (PROC GENMOD, logit) for unadjusted/adjusted models
   - Interaction models: FIBERCAT×BMICAT, FIBERCAT×EDGP, FIBERCAT×AGEDX10
-/* =========================
-   0) USER SETUP (EDIT PATH)
-   ========================= */
+/*0) USER SETUP (EDIT PATH) */
 %let proj = YOUR_PROJECT_FOLDER_PATH;   /* e.g., C:\Users\Reshika\Epi2\caco_project */
 
 /* If your dataset is a .sas7bdat file stored in &proj */
